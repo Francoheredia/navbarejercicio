@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav__hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+.nav__link{
+    margin-right: 20px;
+}
+
+.nav__link a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+
+}
+
+.nav__link a:hover{
+    font-weight: bold;
+    color: #8a25b1;
+    border-bottom: 4px solid #8a25b1;
+    transition: all 0.3s;
+}
+
+
+header{
+
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.svg img{
+    height: 740px;
+}
